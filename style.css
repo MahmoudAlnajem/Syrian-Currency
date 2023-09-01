@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color:#f8f8f8;
+    width:700px;
+    margin:20px auto;
+    height:600px;
+    text-align:center;
+    padding:20px;
+    font-size:24px;
+    border-radius:6px;
+    position:relative
+}
+.container .dollar{
+    background-color: #eee;
+    border-radius:6px;
+    padding:15px
+}
+.container div span{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 40%);
+    padding:5px;
+    border-radius:6px;
+    margin-left: 15px
+}
+.converter{
+    display:flex
+}
+.converter div{
+    flex: 1;
+    margin-top:160px
+}
+.converter div h2{
+    font-weight:normal;
+    font-size:25px;
+}
+.converter div  input{
+    height:30px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top:20px;
+}
+.converter div  input:focus{
+    outline: none;
+}
+.converter div  input::placeholder{
+    font-size:16px
+}
+.converter div  input:focus::placeholder{
+    opacity: 0;
+}
+.converter button{
+    border: none;
+    padding:10px ;
+    color:#575656;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color:#eee;
+    height: fit-content;
+    margin-top:160px
+}
+.container button.convert{
+    border: none;
+    padding:10px ;
+    color:#575656;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color:#eee;
+    margin-top:20px
+}
